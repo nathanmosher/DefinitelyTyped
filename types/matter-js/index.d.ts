@@ -1929,21 +1929,8 @@ declare namespace Matter {
          * All properties have default values, and many are pre-calculated automatically based on other properties.
          * See the properties section below for detailed information on what you can pass via the `options` object.
          * @method create
-         * @param {HTMLElement} element
          * @param {object} [options]
          * @return {engine} engine
-         * @deprecated
-         */
-        static create(element?: HTMLElement | IEngineDefinition, options?: IEngineDefinition): Engine;
-
-        /**
-         * Creates a new engine. The options parameter is an object that specifies any properties you wish to override the defaults.
-         * All properties have default values, and many are pre-calculated automatically based on other properties.
-         * See the properties section below for detailed information on what you can pass via the `options` object.
-         * @method create
-         * @param {object} [options]
-         * @return {engine} engine
-         * @deprecated
          */
         static create(options?: IEngineDefinition): Engine;
 
